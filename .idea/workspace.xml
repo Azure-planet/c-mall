@@ -6,20 +6,19 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6e858a3-06a1-444d-9cf3-f6ee07917faf" name="Default Changelist" comment="" />
+    <list default="true" id="e6e858a3-06a1-444d-9cf3-f6ee07917faf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +55,16 @@
       <updated>1607517417793</updated>
       <workItem from="1607517419220" duration="1306000" />
       <workItem from="1607518930469" duration="259000" />
+      <workItem from="1607519203822" duration="639000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化仓库">
+      <created>1607519263907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607519263907</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,14 +75,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化仓库" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化仓库" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2934" y="153" key="#Notifications" timestamp="1607519416291">
+      <screen x="1920" y="-370" width="2560" height="1400" />
+    </state>
+    <state x="2934" y="153" key="#Notifications/0.0.1536.824/1920.-370.2560.1400@1920.-370.2560.1400" timestamp="1607519416291" />
     <state x="2980" y="84" key="FileChooserDialogImpl" timestamp="1607519142809">
       <screen x="1920" y="-370" width="2560" height="1400" />
     </state>
@@ -83,5 +111,17 @@
       <screen x="1920" y="-370" width="2560" height="1400" />
     </state>
     <state x="2701" y="-26" key="SettingsEditor/0.0.1536.824/1920.-370.2560.1400@1920.-370.2560.1400" timestamp="1607519118070" />
+    <state x="2792" y="63" key="Vcs.Push.Dialog.v2" timestamp="1607519813027">
+      <screen x="1920" y="-370" width="2560" height="1400" />
+    </state>
+    <state x="2792" y="63" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.-370.2560.1400@1920.-370.2560.1400" timestamp="1607519813027" />
+    <state x="3003" y="243" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607519651637">
+      <screen x="1920" y="-370" width="2560" height="1400" />
+    </state>
+    <state x="3003" y="243" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.-370.2560.1400@1920.-370.2560.1400" timestamp="1607519651637" />
+    <state x="2961" y="-194" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607519404324">
+      <screen x="1920" y="-370" width="2560" height="1400" />
+    </state>
+    <state x="2961" y="-194" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824/1920.-370.2560.1400@1920.-370.2560.1400" timestamp="1607519404324" />
   </component>
 </project>
