@@ -1,5 +1,7 @@
 // pages/home/home.js
 import {Theme} from "../../model/theme";
+import {Banner} from "../../model/banner";
+import {Category} from "../../model/category";
 
 Page({
 
@@ -8,30 +10,42 @@ Page({
      * 页面的初始数据
      */
     data: {
-        topTheme: null,
+        themeA: null,
+        bannerB: null,
+        grid: [],
+
+
         background: [],
-        indicatorDots: true,
-        vertical: false,
-        autoplay: true,
-        interval: 2000,
-        duration: 500
+        indicatorDots: true,//指示点
+        autoplay: true,//自动播放
+        interval: 2000,//切换间隔
+        duration: 500,//切换持续事件
+        circular: true,//持续切换
+        indicatorColor: '#157658'
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: async function (options) {
+        await this.initAllData()
+    },
+
+    async initAllData() {
+
         //请求首页第一个元素
-        const data = await Theme.getHomeLocationA()
-        let background = []
-        data.forEach((item) => {
-            if (item.internal_top_img) {
-                background.push(item.internal_top_img)
-            }
-        })
+        const themeA = await Theme.getHomeLocationA()
+        //请求首页第二个元素
+        const bannerB = await Banner.getHomeLocationB()
+
+        //请求第三个元素 (六宫格)
+        const grid = await Category.getGridCategory()
+
+        //设置数据
         this.setData({
-            topTheme: data[0],
-            background: background
+            themeA: themeA[0],
+            bannerB: bannerB,
+            grid: grid
         })
     },
 
