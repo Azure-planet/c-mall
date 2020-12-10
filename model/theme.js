@@ -15,7 +15,7 @@ class Theme {
         return await Http.request({
             url: `theme/by/names`,
             data: {
-                names: 't-1'
+                names: 't-1,t-2,t-3,t-4,t-5,t-6'
             }
         })
     }

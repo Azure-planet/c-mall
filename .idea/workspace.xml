@@ -17,22 +17,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6e858a3-06a1-444d-9cf3-f6ee07917faf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/conver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/http.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/logs/logs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/logs/logs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/logs/logs.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/logs/logs.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/http.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +72,8 @@
       <workItem from="1607519203822" duration="1125000" />
       <workItem from="1607520356074" duration="449000" />
       <workItem from="1607520838629" duration="6777000" />
+      <workItem from="1607561478097" duration="372000" />
+      <workItem from="1607561859577" duration="5586000" />
     </task>
     <task id="LOCAL-00001" summary="初始化仓库">
       <created>1607519263907</created>
@@ -138,10 +132,11 @@
       <screen x="1920" y="-370" width="2560" height="1400" />
     </state>
     <state x="2980" y="84" key="FileChooserDialogImpl/0.0.1536.824/1920.-370.2560.1400@1920.-370.2560.1400" timestamp="1607519142809" />
-    <state x="2773" y="-44" width="998" height="708" key="SettingsEditor" timestamp="1607526281134">
-      <screen x="1920" y="-370" width="2560" height="1400" />
+    <state x="853" y="326" width="998" height="708" key="SettingsEditor" timestamp="1607561977280">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="2773" y="-44" width="998" height="708" key="SettingsEditor/0.0.1536.824/1920.-370.2560.1400@1920.-370.2560.1400" timestamp="1607526281134" />
+    <state x="853" y="326" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1607561977280" />
     <state x="2792" y="63" key="Vcs.Push.Dialog.v2" timestamp="1607519950828">
       <screen x="1920" y="-370" width="2560" height="1400" />
     </state>
@@ -150,9 +145,17 @@
       <screen x="1920" y="-370" width="2560" height="1400" />
     </state>
     <state x="3003" y="243" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.-370.2560.1400@1920.-370.2560.1400" timestamp="1607519651637" />
+    <state x="982" y="298" width="596" height="804" key="find.popup" timestamp="1607561751556">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="982" y="298" width="596" height="804" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1607561751556" />
     <state x="2961" y="-194" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607519404324">
       <screen x="1920" y="-370" width="2560" height="1400" />
     </state>
     <state x="2961" y="-194" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824/1920.-370.2560.1400@1920.-370.2560.1400" timestamp="1607519404324" />
+    <state x="936" y="330" key="run.anything.popup" timestamp="1607569966650">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1607569966650" />
   </component>
 </project>

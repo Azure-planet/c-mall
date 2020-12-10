@@ -1,4 +1,14 @@
 <!--pages/home/home.wxml-->
-<view> 
+<view>
     <image class="top-theme" src="{{topTheme.entrance_img}}"></image>
+</view>
+<view>
+    <swiper indicator-dots="{{indicatorDots}}"
+            autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+            <swiper-item>
+                <image class="top-theme" src="{{item}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
 </view>

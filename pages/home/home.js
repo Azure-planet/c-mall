@@ -8,7 +8,13 @@ Page({
      * 页面的初始数据
      */
     data: {
-        topTheme: null
+        topTheme: null,
+        background: [],
+        indicatorDots: true,
+        vertical: false,
+        autoplay: true,
+        interval: 2000,
+        duration: 500
     },
 
     /**
@@ -17,9 +23,15 @@ Page({
     onLoad: async function (options) {
         //请求首页第一个元素
         const data = await Theme.getHomeLocationA()
-        console.log("data", data)
+        let background = []
+        data.forEach((item) => {
+            if (item.internal_top_img) {
+                background.push(item.internal_top_img)
+            }
+        })
         this.setData({
-            topTheme: data[0]
+            topTheme: data[0],
+            background: background
         })
     },
 

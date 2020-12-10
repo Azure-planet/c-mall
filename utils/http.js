@@ -10,7 +10,7 @@ class Http {
 
     /**
      * 发送http请求
-     * @param url 唯一资源路径
+     * @param url 统一资源定位符
      * @param data 请求参数
      * @param method 请求方法
      */
